@@ -1,0 +1,32 @@
+[
+    {
+        "model": "management.groups",
+        "pk": 1,
+        "fields": {
+            "name": "admin",
+            "created_at": "2020-02-04T04:51:44.294Z",
+            "modified_at": "2020-02-04T04:51:44.294Z",
+            "is_web_login_allowed": true
+        }
+    },
+    {
+        "model": "management.groups",
+        "pk": 2,
+        "fields": {
+            "name": "teacher",
+            "created_at": "2020-02-04T04:51:44.294Z",
+            "modified_at": "2020-02-04T04:51:44.294Z",
+            "is_web_login_allowed": true
+        }
+    },
+    {
+        "model": "management.groups",
+        "pk": 3,
+        "fields": {
+            "name": "student",
+            "is_web_login_allowed": true,
+            "created_at": "2020-02-04T04:51:44.294Z",
+            "modified_at": "2020-02-04T04:51:44.294Z"
+        }
+    }
+]

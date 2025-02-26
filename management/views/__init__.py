@@ -1,0 +1,2 @@
+from management.views.management import (ManagementUserLoginAPIView,
+ManagementUserRegistrationAPIView)
